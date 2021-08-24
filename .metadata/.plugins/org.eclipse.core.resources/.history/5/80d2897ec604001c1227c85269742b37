@@ -1,0 +1,16 @@
+package com.cms.exception;
+
+import java.time.LocalDateTime;
+
+import lombok.Data;
+//@Getter
+//@Setter
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@ToString
+@Data
+public class ErrorDetails {
+private LocalDateTime timestamp;
+private String request;
+private String message;
+}

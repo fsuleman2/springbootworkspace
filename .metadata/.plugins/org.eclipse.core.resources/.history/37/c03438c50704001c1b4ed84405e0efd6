@@ -1,0 +1,5 @@
+package com.cmsapp.repositoryimpl;
+
+public class CustomerRepositoryImpl {
+
+}

@@ -1,0 +1,10 @@
+package com.cmsapp.model;
+
+public class Customer {
+	private int customerId;
+	private String customerName;
+	private String customerCity;
+	private Date  dob;
+	private long customerPhoneno ;
+	private String customerPassword ;
+}

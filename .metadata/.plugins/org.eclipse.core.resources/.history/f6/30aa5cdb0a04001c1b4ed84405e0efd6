@@ -1,0 +1,9 @@
+package com.cmsapp.repositoryimpl;
+
+import com.cmsapp.model.Customer;
+
+public class CustomerRepositoryImpl {
+public Customer createCustomer(Customer customer ) {
+	return null;
+}
+}

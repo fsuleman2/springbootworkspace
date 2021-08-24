@@ -1,0 +1,23 @@
+package com.cms.exception;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+//@Data alone is equal to below all
+//@Getter
+//@Setter
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@ToString
+@AllArgsConstructor
+@Data
+public class ErrorDetails {
+public ErrorDetails(LocalDateTime now, String description, String localizedMessage) {
+		// TODO Auto-generated constructor stub
+	}
+private LocalDateTime timestamp;
+private String request;
+private List<String> message;
+}

@@ -1,0 +1,5 @@
+package com.cmsapp.model;
+
+public class Customer {
+
+}

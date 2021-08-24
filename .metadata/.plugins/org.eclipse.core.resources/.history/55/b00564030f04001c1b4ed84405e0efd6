@@ -1,0 +1,24 @@
+package com.cmsapp.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.cmsapp.model.Customer;
+@Repository //interface an objct in IOC
+public interface CustomerRepository extends CrudRepository<Customer, Integer>{
+/**
+ * 12
+ * save
+ * find
+ * exist
+ * findbyid
+ * existById
+ * delete
+ * deleteByID
+ * many are there in CrudRepository*/
+//	in PaginationRepo we have 2 methods
+//in JPARepo we have 14 methods 
+//total 12+2+14 = 28
+	
+	
+}

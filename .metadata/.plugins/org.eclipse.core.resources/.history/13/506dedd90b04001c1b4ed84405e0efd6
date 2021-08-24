@@ -1,0 +1,17 @@
+package com.cmsapp.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.cmsapp.model.Customer;
+
+public interface CustomerRepository extends CrudRepository<Customer, Integer>{
+/**
+ * save
+ * find
+ * exist
+ * findbyid
+ * existById
+ * delete
+ * deleteByID
+ * many are there in CrudRepository*/
+}

@@ -1,0 +1,68 @@
+package com.cmsapp.model;
+
+import java.util.Date;
+
+public class Customer {
+	private int customerId;
+	private String customerName;
+	private String customerCity;
+	private Date  dob;
+	private String customerPhoneno ;
+	private String customerPassword ;
+	public Customer() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", customerCity="
+				+ customerCity + ", dob=" + dob + ", customerPhoneno=" + customerPhoneno + ", customerPassword="
+				+ customerPassword + "]";
+	}
+	public Customer(int customerId, String customerName, String customerCity, Date dob, long customerPhoneno,
+			String customerPassword) {
+		super();
+		this.customerId = customerId;
+		this.customerName = customerName;
+		this.customerCity = customerCity;
+		this.dob = dob;
+		this.customerPhoneno = customerPhoneno;
+		this.customerPassword = customerPassword;
+	}
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getCustomerCity() {
+		return customerCity;
+	}
+	public void setCustomerCity(String customerCity) {
+		this.customerCity = customerCity;
+	}
+	public Date getDob() {
+		return dob;
+	}
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+	public long getCustomerPhoneno() {
+		return customerPhoneno;
+	}
+	public void setCustomerPhoneno(long customerPhoneno) {
+		this.customerPhoneno = customerPhoneno;
+	}
+	public String getCustomerPassword() {
+		return customerPassword;
+	}
+	public void setCustomerPassword(String customerPassword) {
+		this.customerPassword = customerPassword;
+	}
+	
+}
