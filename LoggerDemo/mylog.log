@@ -1,0 +1,436 @@
+2021-09-08 07:16:25.401  INFO 5480 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 5480 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 07:16:25.404  INFO 5480 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 07:16:26.620  INFO 5480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:16:26.637  INFO 5480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:16:26.638  INFO 5480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:16:26.840  INFO 5480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:16:26.840  INFO 5480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1362 ms
+2021-09-08 07:16:27.317  INFO 5480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:16:27.330  INFO 5480 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 2.52 seconds (JVM running for 3.507)
+2021-09-08 07:16:27.333  INFO 5480 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 07:18:43.602  INFO 5480 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:19:18.307  INFO 9924 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 9924 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 07:19:18.310  INFO 9924 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 07:19:19.668  INFO 9924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:19:19.678  INFO 9924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:19:19.679  INFO 9924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:19:19.769  INFO 9924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:19:19.769  INFO 9924 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
+2021-09-08 07:19:20.239  INFO 9924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:19:20.252  INFO 9924 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 2.514 seconds (JVM running for 3.415)
+2021-09-08 07:19:20.255  INFO 9924 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 07:34:54.419  INFO 9924 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:34:58.939  INFO 10900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:34:58.952  INFO 10900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:34:58.953  INFO 10900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:34:59.033  INFO 10900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:34:59.033  INFO 10900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1152 ms
+2021-09-08 07:34:59.514  INFO 10900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:35:12.667  INFO 10900 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:37:20.708 ERROR 10432 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:39 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@12:46 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.loggerdemo.LoggerDemoApplication.main(LoggerDemoApplication.java:13)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:39 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@12:46 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 18 common frames omitted
+
+2021-09-08 07:37:59.837  INFO 992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:37:59.850  INFO 992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:37:59.851  INFO 992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:37:59.943  INFO 992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:37:59.943  INFO 992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1291 ms
+2021-09-08 07:38:00.440  INFO 992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:38:06.082  INFO 992 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:38:15.877  INFO 8968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:38:15.890  INFO 8968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:38:15.891  INFO 8968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:38:15.970  INFO 8968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:38:15.971  INFO 8968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2021-09-08 07:38:16.475  INFO 8968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:38:27.058  INFO 8968 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:38:38.045  INFO 10908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:38:38.059  INFO 10908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:38:38.059  INFO 10908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:38:38.141  INFO 10908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:38:38.141  INFO 10908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1341 ms
+2021-09-08 07:38:38.612  INFO 10908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:39:32.054  INFO 10908 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:39:35.697 ERROR 4708 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:39 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@12:46 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.loggerdemo.LoggerDemoApplication.main(LoggerDemoApplication.java:13)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:39 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@12:46 - no applicable action for [AppenderRef], current ElementPath  is [[configuration][logger][AppenderRef]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 18 common frames omitted
+
+2021-09-08 07:40:12.308  INFO 11880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:40:12.321  INFO 11880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:40:12.322  INFO 11880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:40:12.400  INFO 11880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:40:12.401  INFO 11880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2021-09-08 07:40:12.872  INFO 11880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:41:17.751  INFO 11880 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:41:35.891  INFO 5160 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 5160 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 07:41:35.894  INFO 5160 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 07:41:37.045  INFO 5160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:41:37.056  INFO 5160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:41:37.056  INFO 5160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:41:37.144  INFO 5160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:41:37.145  INFO 5160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1180 ms
+2021-09-08 07:41:37.652  INFO 5160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:41:37.665  INFO 5160 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 2.366 seconds (JVM running for 3.292)
+2021-09-08 07:41:37.667  INFO 5160 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 07:41:37.668  INFO 5160 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 07:41:37.668  INFO 5160 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 07:42:33.075  INFO 5160 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:42:36.719  INFO 11256 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 11256 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 07:42:36.723  INFO 11256 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 07:42:37.853  INFO 11256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:42:37.864  INFO 11256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:42:37.864  INFO 11256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:42:37.954  INFO 11256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:42:37.955  INFO 11256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1163 ms
+2021-09-08 07:42:38.420  INFO 11256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:42:38.433  INFO 11256 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 2.295 seconds (JVM running for 3.214)
+2021-09-08 07:42:38.436  INFO 11256 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 07:42:38.436  INFO 11256 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 07:42:38.437  INFO 11256 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 07:44:49.231  INFO 11256 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 07:44:52.801  INFO 8924 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 8924 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 07:44:52.805  INFO 8924 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 07:44:53.978  INFO 8924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 07:44:53.989  INFO 8924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 07:44:53.990  INFO 8924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 07:44:54.081  INFO 8924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 07:44:54.082  INFO 8924 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1200 ms
+2021-09-08 07:44:54.566  INFO 8924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 07:44:54.578  INFO 8924 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 2.414 seconds (JVM running for 3.481)
+2021-09-08 07:44:54.581  INFO 8924 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 07:44:54.582  INFO 8924 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 07:44:54.582  INFO 8924 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 07:58:15.170  INFO 8924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 07:58:15.171  INFO 8924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-08 07:58:15.173  INFO 8924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-08 08:03:00.866  INFO 8924 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 08:03:42.624  INFO 7520 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 7520 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:03:42.628  INFO 7520 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:03:43.187  WARN 7520 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+2021-09-08 08:03:43.201  INFO 7520 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-08 08:03:43.229 ERROR 7520 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812) ~[spring-context-5.3.9.jar:5.3.9]
+	at java.util.ArrayList.forEach(Unknown Source) ~[na:1.8.0_301]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.4.jar:2.5.4]
+	at com.loggerdemo.LoggerDemoApplication.main(LoggerDemoApplication.java:13) [classes/:na]
+Caused by: java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:187) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1090) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1071) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:549) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:522) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.9.jar:5.3.9]
+	... 22 common frames omitted
+
+2021-09-08 08:04:05.298  INFO 9692 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 9692 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:04:05.302  INFO 9692 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:04:05.907  WARN 9692 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+2021-09-08 08:04:05.925  INFO 9692 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-08 08:04:05.979 ERROR 9692 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812) ~[spring-context-5.3.9.jar:5.3.9]
+	at java.util.ArrayList.forEach(Unknown Source) ~[na:1.8.0_301]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.4.jar:2.5.4]
+	at com.loggerdemo.LoggerDemoApplication.main(LoggerDemoApplication.java:13) [classes/:na]
+Caused by: java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:187) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1090) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1071) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:549) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:522) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.9.jar:5.3.9]
+	... 22 common frames omitted
+
+2021-09-08 08:12:17.932  INFO 10440 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 10440 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:12:17.936  INFO 10440 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:12:18.299  WARN 10440 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.loggerdemo.LoggerDemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+2021-09-08 08:12:18.308  INFO 10440 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-08 08:12:18.336 ERROR 10440 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.loggerdemo.LoggerDemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.4.jar:2.5.4]
+	at com.loggerdemo.LoggerDemoApplication.main(LoggerDemoApplication.java:16) [classes/:na]
+Caused by: java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:187) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1090) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1071) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:549) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:522) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600) ~[spring-context-5.3.9.jar:5.3.9]
+	... 17 common frames omitted
+
+2021-09-08 08:14:28.980  INFO 6184 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 6184 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:14:28.985  INFO 6184 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:14:30.617  INFO 6184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 08:14:30.629  INFO 6184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 08:14:30.629  INFO 6184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 08:14:30.756  INFO 6184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 08:14:30.757  INFO 6184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1696 ms
+2021-09-08 08:14:31.515  INFO 6184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 08:14:31.805  INFO 6184 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 3.455 seconds (JVM running for 4.381)
+2021-09-08 08:14:31.807  INFO 6184 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:14:31.808  INFO 6184 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:14:31.809  INFO 6184 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:14:51.856  INFO 6184 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 08:14:51.857  INFO 6184 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-08 08:14:51.859  INFO 6184 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-09-08 08:16:10.361  INFO 6184 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 08:16:13.729  INFO 10692 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 10692 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:16:13.733  INFO 10692 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:16:15.321  INFO 10692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 08:16:15.332  INFO 10692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 08:16:15.333  INFO 10692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 08:16:15.446  INFO 10692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 08:16:15.446  INFO 10692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1637 ms
+2021-09-08 08:16:16.207  INFO 10692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 08:16:16.496  INFO 10692 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 3.356 seconds (JVM running for 4.287)
+2021-09-08 08:16:16.499  INFO 10692 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:16:16.500  INFO 10692 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:16:16.500  INFO 10692 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:16:30.420  INFO 10692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 08:16:30.421  INFO 10692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-08 08:16:30.423  INFO 10692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-09-08 08:18:09.562  INFO 10692 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 08:18:25.076  INFO 6512 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 6512 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:18:25.080  INFO 6512 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:18:26.742  INFO 6512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 08:18:26.754  INFO 6512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 08:18:26.755  INFO 6512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 08:18:26.880  INFO 6512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 08:18:26.881  INFO 6512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1726 ms
+2021-09-08 08:18:27.709  INFO 6512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 08:18:28.029  INFO 6512 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 3.583 seconds (JVM running for 4.544)
+2021-09-08 08:18:28.033  INFO 6512 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:18:28.033  INFO 6512 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:18:28.033  INFO 6512 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:18:35.456  INFO 6512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 08:18:35.457  INFO 6512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-08 08:18:35.458  INFO 6512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-08 08:19:21.077  INFO 10296 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 10296 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:19:21.081  INFO 10296 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:19:22.639  INFO 10296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 08:19:22.650  INFO 10296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 08:19:22.651  INFO 10296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 08:19:22.765  INFO 10296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 08:19:22.765  INFO 10296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1613 ms
+2021-09-08 08:19:23.564  WARN 10296 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-09-08 08:19:23.573  INFO 10296 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-08 08:19:23.588  INFO 10296 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-08 08:19:23.607 ERROR 10296 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-09-08 08:19:25.667  INFO 6512 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 08:19:31.882  INFO 7976 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 7976 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:19:31.886  INFO 7976 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:19:33.444  INFO 7976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 08:19:33.455  INFO 7976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 08:19:33.456  INFO 7976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 08:19:33.569  INFO 7976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 08:19:33.570  INFO 7976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1612 ms
+2021-09-08 08:19:34.337  INFO 7976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 08:19:34.619  INFO 7976 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 3.311 seconds (JVM running for 4.359)
+2021-09-08 08:19:34.622  INFO 7976 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:19:34.622  INFO 7976 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:19:34.622  INFO 7976 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:19:42.168  INFO 7976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 08:19:42.168  INFO 7976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-08 08:19:42.170  INFO 7976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-09-08 08:21:12.936  INFO 7976 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-08 08:23:41.278  INFO 1084 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : Starting LoggerDemoApplicationTests using Java 1.8.0_301 on suleman with PID 1084 (started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:23:41.285  INFO 1084 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : No active profile set, falling back to default profiles: default
+2021-09-08 08:23:48.394  INFO 1084 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : Started LoggerDemoApplicationTests in 7.778 seconds (JVM running for 10.1)
+2021-09-08 08:23:48.404  INFO 1084 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:23:48.408  INFO 1084 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:23:48.410  INFO 1084 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:24:09.869  INFO 5828 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : Starting LoggerDemoApplicationTests using Java 1.8.0_301 on suleman with PID 5828 (started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:24:09.884  INFO 5828 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : No active profile set, falling back to default profiles: default
+2021-09-08 08:24:16.792  INFO 5828 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : Started LoggerDemoApplicationTests in 7.598 seconds (JVM running for 10.011)
+2021-09-08 08:24:16.796  INFO 5828 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:24:16.797  INFO 5828 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:24:16.798  INFO 5828 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:25:32.354  INFO 10140 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : Starting LoggerDemoApplicationTests using Java 1.8.0_301 on suleman with PID 10140 (started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:25:32.362  INFO 10140 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : No active profile set, falling back to default profiles: default
+2021-09-08 08:25:39.050  INFO 10140 --- [main] c.loggerdemo.LoggerDemoApplicationTests  : Started LoggerDemoApplicationTests in 7.35 seconds (JVM running for 9.751)
+2021-09-08 08:25:39.055  INFO 10140 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:25:39.056  INFO 10140 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:25:39.056  INFO 10140 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:26:15.490  INFO 176 --- [main] com.loggerdemo.LoggerDemoApplication     : Starting LoggerDemoApplication using Java 1.8.0_301 on suleman with PID 176 (E:\springbootworkspace\LoggerDemo\target\classes started by fsuleman2 in E:\springbootworkspace\LoggerDemo)
+2021-09-08 08:26:15.495  INFO 176 --- [main] com.loggerdemo.LoggerDemoApplication     : No active profile set, falling back to default profiles: default
+2021-09-08 08:26:17.069  INFO 176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-08 08:26:17.080  INFO 176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-08 08:26:17.081  INFO 176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-08 08:26:17.194  INFO 176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-08 08:26:17.194  INFO 176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1623 ms
+2021-09-08 08:26:17.970  INFO 176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-08 08:26:18.257  INFO 176 --- [main] com.loggerdemo.LoggerDemoApplication     : Started LoggerDemoApplication in 3.348 seconds (JVM running for 4.449)
+2021-09-08 08:26:18.260  INFO 176 --- [main] com.loggerdemo.LoggerDemoApplication     : *****************************Hello*****************
+2021-09-08 08:26:18.260  INFO 176 --- [main] com.loggerdemo.Hello                     : *****************************Hello*****************
+2021-09-08 08:26:18.260  INFO 176 --- [main] com.loggerdemo.Hello                     : *****************************bye*****************
+2021-09-08 08:26:22.419  INFO 176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 08:26:22.419  INFO 176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-08 08:26:22.421  INFO 176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-08 08:26:35.296  INFO 176 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

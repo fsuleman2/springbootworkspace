@@ -1,7 +1,0 @@
-package com.cms.exception;
-
-public class ErrorDetails {
-private LocalDateTime timestamp;
-private String request;
-private String message;
-}

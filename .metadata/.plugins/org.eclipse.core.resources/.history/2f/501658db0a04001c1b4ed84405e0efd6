@@ -1,9 +1,0 @@
-package com.cmsapp.serviceimpl;
-
-import com.cmsapp.model.Customer;
-
-public class CustomerServiceImpl {
-	public Customer createCustomer(Customer customer ) {
-		return null;
-	}
-}
